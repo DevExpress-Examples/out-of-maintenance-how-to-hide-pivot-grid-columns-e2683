@@ -1,15 +1,15 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Windows.Forms
 Imports DevExpress.XtraPivotGrid
 
 Namespace XtraPivotGrid_ExampleTemplate
 	Partial Public Class Form1
 		Inherits Form
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
-		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
+		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 			Dim adapter As New nwindDataSetTableAdapters.ProductReportsTableAdapter()
 			pivotGridControl1.DataSource = adapter.GetData()
 			pivotGridControl1.BestFit()

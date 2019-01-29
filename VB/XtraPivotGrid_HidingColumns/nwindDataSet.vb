@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace XtraPivotGrid_ExampleTemplate
+﻿Namespace XtraPivotGrid_ExampleTemplate
 
 
 	Partial Public Class nwindDataSet

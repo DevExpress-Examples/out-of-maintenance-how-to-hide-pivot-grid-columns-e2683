@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace XtraPivotGrid_ExampleTemplate
+﻿Namespace XtraPivotGrid_ExampleTemplate
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -29,8 +27,8 @@ Namespace XtraPivotGrid_ExampleTemplate
 			Me.fieldProductName = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.fieldProductSales = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.ceHideColumnGrandTotal = New DevExpress.XtraEditors.CheckEdit()
-			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.ceHideColumnGrandTotal.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.ceHideColumnGrandTotal.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' pivotGridControl1
@@ -41,7 +39,8 @@ Namespace XtraPivotGrid_ExampleTemplate
 			Me.pivotGridControl1.Name = "pivotGridControl1"
 			Me.pivotGridControl1.Size = New System.Drawing.Size(388, 405)
 			Me.pivotGridControl1.TabIndex = 0
-'			Me.pivotGridControl1.CustomFieldValueCells += New DevExpress.XtraPivotGrid.PivotCustomFieldValueCellsEventHandler(Me.pivotGridControl1_CustomFieldValueCells);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.pivotGridControl1.CustomFieldValueCells += new DevExpress.XtraPivotGrid.PivotCustomFieldValueCellsEventHandler(this.pivotGridControl1_CustomFieldValueCells);
 			' 
 			' fieldProductName
 			' 
@@ -66,7 +65,8 @@ Namespace XtraPivotGrid_ExampleTemplate
 			Me.ceHideColumnGrandTotal.Properties.Caption = "Hide Grand Total Column When Column Area Is Empty"
 			Me.ceHideColumnGrandTotal.Size = New System.Drawing.Size(516, 19)
 			Me.ceHideColumnGrandTotal.TabIndex = 1
-'			Me.ceHideColumnGrandTotal.CheckedChanged += New System.EventHandler(Me.ceHideColumnGrandTotal_CheckedChanged);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.ceHideColumnGrandTotal.CheckedChanged += new System.EventHandler(this.ceHideColumnGrandTotal_CheckedChanged);
 			' 
 			' Form1
 			' 
@@ -77,9 +77,10 @@ Namespace XtraPivotGrid_ExampleTemplate
 			Me.Controls.Add(Me.pivotGridControl1)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-'			Me.Load += New System.EventHandler(Me.Form1_Load);
-			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.ceHideColumnGrandTotal.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
+			DirectCast(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.ceHideColumnGrandTotal.Properties, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub
