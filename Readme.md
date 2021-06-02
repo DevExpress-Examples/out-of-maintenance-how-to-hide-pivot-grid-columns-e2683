@@ -6,4 +6,4 @@
 # How to Hide a Column at Runtime
 
 
-This example demonstrates how to handle the [PivotGridControl.CustomFieldValueCells](https://docs.devexpress.com/WinForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomFieldValueCells) event to remove the **Grand Total** column if there are no fields in the [Column Area](https://docs.devexpress.com/WindowsForms/1686).
+This example demonstrates how to handle the [PivotGridControl.CustomFieldValueCells](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomFieldValueCells) event to remove the **Grand Total** column if there are no fields in the [Column Area](https://docs.devexpress.com/WindowsForms/1686).
