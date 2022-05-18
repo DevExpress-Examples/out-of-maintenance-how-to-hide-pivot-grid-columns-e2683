@@ -1,9 +1,7 @@
-﻿namespace XtraPivotGrid_ExampleTemplate
-{
+﻿namespace XtraPivotGrid_ExampleTemplate {
 
 
-    public partial class nwindDataSet
-    {
+    public partial class nwindDataSet {
     }
 }
 namespace XtraPivotGrid_ExampleTemplate {
